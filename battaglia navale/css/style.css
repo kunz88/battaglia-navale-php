@@ -1,0 +1,157 @@
+*{
+      margin:0;
+      padding: 0;
+      box-sizing: border-box;
+}
+@font-face {
+      font-family: 'Arcade';
+      src: url('../font/Arcade.woff2') format('woff2'),
+            url('../font/Arcade.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+}
+@font-face {
+      font-family: 'Arcade';
+      src: url('../font/Arcade.woff2') format('woff2'),
+            url('../font/Arcade.woff') format('woff');
+      font-weight: 300;
+      font-style: normal;
+      font-display: swap;
+}
+
+@font-face {
+      font-family: 'Arcade';
+      src: url('../font/Arcade.woff2') format('woff2'),
+            url('../font/Arcade.woff') format('woff');
+      font-weight: bold;
+      font-style: italic;
+      font-display: swap;
+}
+
+@font-face {
+      font-family: 'Arcade';
+      src: url('../font/Arcade.woff2') format('woff2'),
+            url('../font/Arcade.woff') format('woff');
+      font-weight: normal;
+      font-style: italic;
+      font-display: swap;
+}
+
+
+@font-face {
+      font-family: 'Arcade';
+      src: url('../font/Arcade.woff2') format('woff2'),
+            url('../font/Arcade.woff') format('woff');
+      font-weight: 500;
+      font-style: italic;
+      font-display: swap;
+}
+
+@font-face {
+      font-family: 'Arcade';
+      src: url('../font/Arcade.woff2') format('woff2'),
+            url('../font/Arcade.woff') format('woff');
+      font-weight: bold;
+      font-style: normal;
+      font-display: swap;
+}
+
+
+@font-face {
+      font-family: 'Arcade';
+      src: url('../font/Arcade.woff2') format('woff2'),
+            url('../font/Arcade.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+}
+h1{
+      font-size: 3rem;
+}
+body{
+      font-family: 'Arcade';
+}
+.container{
+      width: 900px;
+      margin: 0 auto;
+      text-align: center;
+}
+
+.containerNew{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      background-color:wheat;
+      width: 100%;
+      margin:0 auto;
+      text-align: center;
+}
+input{
+      visibility: hidden;}
+.sea{
+      display: inline-block;
+      background: url("../img/blob.svg") center;
+      width: 60px;
+      height: 60px;
+      border: 1px solid maroon;
+      text-align: center;
+      color: black;
+      text-decoration: none;
+}
+.stampa{
+      width: 100%;
+      background-color: brown;
+      padding-bottom: 10px;
+      font-size: 1.3rem;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+
+}
+.acqua {
+      width: 100%;
+      background-color: aqua;
+      padding-bottom: 10px;
+      font-size: 1.5rem;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+
+}
+.bord{
+      display:inline-block;
+      width: 62px;
+      text-align: center;
+}
+.box{
+      text-decoration: none;
+      color: black;
+      font-size: 1rem;
+}
+.button {
+      padding: 7px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+}
+.caption {
+      width: 40%;
+      height: 40%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      border: solid 1px black;
+      align-self: self-end;
+}
+.boat {
+      font-size: 2rem;
+      text-align: left;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100px;
+}
+.boatIm {
+
+      max-width: 38%;
+      height: auto;
+}
